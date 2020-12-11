@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO 11.3 --> Go to CharaAdapter
         //TODO 11.8 Complete the necessary code to initialize your RecyclerView
         charaAdapter = new CharaAdapter( this, dataSource);
-        recyclerView.setAdapter( charaAdapter);
+        recyclerView.setAdapter(charaAdapter);
         /** Explore using new GridLayoutManager */
         recyclerView.setLayoutManager(
                 new LinearLayoutManager(this));
